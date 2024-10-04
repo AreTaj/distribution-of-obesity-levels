@@ -16,11 +16,6 @@ plt.ylabel('Features')
 plt.show()
 
 # ===========================
-# Predictions of Obesity Levels
-# ===========================
-y_pred_rf = rf_clf.predict(X_test_scaled)
-
-# ===========================
 # Confusion Matrix Visualization
 # ===========================
 conf_matrix = confusion_matrix(y_test, y_pred_rf)
