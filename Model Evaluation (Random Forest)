@@ -1,1 +1,47 @@
+# Feature Importance
+importances = rf_clf.feature_importances_
+feature_names = X.columns
+feature_imp = pd.Series(importances, index=feature_names).sort_values(ascending=False)
 
+# Plot 
+plt.figure(figsize=(10, 6))
+sns.barplot(x=feature_imp, y=feature_imp.index)
+plt.title('Feature Importances from Random Forest')
+plt.xlabel('Importance Score')
+plt.ylabel('Features')
+plt.show()
+
+# Predictions
+y_pred_rf = rf_clf.predict(X_test_scaled)
+
+# Confusion Matrix
+conf_matrix = confusion_matrix(y_test, y_pred_rf)
+
+# Display the confusion matrix
+plt.figure(figsize=(6, 4))
+sns.heatmap(conf_matrix, annot=True, fmt='d', cmap='Greens', 
+            xticklabels=le.classes_, yticklabels=le.classes_)
+plt.title('Confusion Matrix for Random Forest Classifier')
+plt.xlabel('Predicted Obesity Level')
+plt.ylabel('Actual Obesity Level')
+plt.show()
+
+# ROC Curve and AUC
+roc_auc = roc_auc_score(y_test, rf_clf.predict_proba(X_test_scaled)[:, 1])
+fpr, tpr, threshold = roc_curve(y_test, rf_clf.predict_proba(X_test_scaled)[:, 1])
+
+# Plot the ROC Curve
+plt.figure(figsize=(8, 6))
+plt.plot(fpr, tpr, color='green', label='ROC Curve (AUC = {:.2f})'.format(roc_auc), linewidth=2)
+
+# Add random guessing line
+plt.plot([0, 1], [0, 1], color='blue', linestyle='--', label='Random Guessing Line')
+plt.xlabel('False Positive Rate')
+plt.ylabel('True Positive Rate')
+plt.title('ROC Curve for Random Forest')
+plt.legend()
+plt.show()
+
+# Cross validation scores
+cv_scores_rf = cross_val_score(rf_clf, scaler.fit_transform(X), y, cv=5, scoring='accuracy')
+print(f"Random Forest Cross Validation Accuracy: {cv_scores_rf.mean():.4f} ± {cv_scores_rf.std():.4f}")
