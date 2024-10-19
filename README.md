@@ -21,9 +21,13 @@ Through statistical analysis and machine learning techniques, we hypothesize tha
 
 ## Methods Used
 •	Inferential Statistics
+
 •	Machine Learning
+
 •	Data Visualization
+
 •	Data Manipulation
+
 ## Technologies
 •	Python
 
