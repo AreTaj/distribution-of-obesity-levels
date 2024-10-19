@@ -32,10 +32,12 @@ Through statistical analysis and machine learning techniques, we hypothesize tha
 •	Python
 
 ## Project Description
-<Discuss the details of project overview. Description your selected dataset, such as data source, number of variables, size of dataset, etc. Include data dictionary, if available.  Provide questions and hypothesis that you are exploring. What specific data analysis, visualization, and modeling work are you using to solve the problem? What roadblocks and challenges are you facing? etc. >
+The source dataset, “Estimation of Obesity Levels Based On Eating Habits and Physical Condition”, was created by Fabio Mendoza Palechor and Alexis de la Hoz Manotas in 2019 and obtained from the UCI Irvine Machine Learning Repository. It has 16 features, 2111 instances, and a class variable NObesity (Obesity Level) that allows classification of the data using the values of Insufficient Weight, Normal Weight, Overweight Level I, Overweight Level II, Obesity Type I, Obesity Type II and Obesity Type III. 
+
+Data cleaning & preparation and exploratory data analysis were performed in Python to facilitate model selection and model analysis. A random forest model was constructed and provided accurate predictions and highlighted relationships between predictors and obesity levels.
 
 ## License
 <You can add under what license your project is. As a good practice, add LICENSE file in your project folder as well. >
 
 ## Acknowledgments
-<You can mention and thank your professors and those who technically helped you during the project. >
+Thanks to professors Dallin Munger and Leon Shpaner of our AAI 500 class.
