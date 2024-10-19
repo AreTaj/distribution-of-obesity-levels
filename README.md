@@ -15,10 +15,6 @@ Through statistical analysis and machine learning techniques, we hypothesize tha
 ## Partner(s)/Contributor(s)  
 •	Payal Patel, Ahmed Salem, Aresh Tajvar
 
-<•	Website for partner, if available. 
-
-•	Partner contact: [Name of Contact], and If you do not have a partner leave this section out>
-
 ## Methods Used
 •	Inferential Statistics
 
@@ -28,13 +24,35 @@ Through statistical analysis and machine learning techniques, we hypothesize tha
 
 •	Data Manipulation
 
+•	Random Forest Modeling
+
+•	Correlation Analysis
+
+•	Multivariate Analysis
+
+•	PCA Analysis
+
+•	Confusion Matrices
+
+•	ROC
+
+•	Data Balancing
+
+•	Winsorization
+
+•	Outlier Detection
+
 ## Technologies
 •	Python
 
+•	Jupyter Notebook
+
 ## Project Description
-The source dataset, “Estimation of Obesity Levels Based On Eating Habits and Physical Condition”, was created by Fabio Mendoza Palechor and Alexis de la Hoz Manotas in 2019 and obtained from the UCI Irvine Machine Learning Repository. It has 16 features, 2111 instances, and a class variable NObesity (Obesity Level) that allows classification of the data using the values of Insufficient Weight, Normal Weight, Overweight Level I, Overweight Level II, Obesity Type I, Obesity Type II and Obesity Type III. 
+The source dataset, “Estimation of Obesity Levels Based On Eating Habits and Physical Condition”, was created by Fabio Mendoza Palechor and Alexis de la Hoz Manotas in 2019 and obtained from the UCI Irvine Machine Learning Repository (https://archive.ics.uci.edu/dataset/544/estimation+of+obesity+levels+based+on+eating+habits+and+physical+condition). It has 16 features, 2111 instances, and a class variable NObesity (Obesity Level) that allows classification of the data using the values of Insufficient Weight, Normal Weight, Overweight Level I, Overweight Level II, Obesity Type I, Obesity Type II and Obesity Type III. 
 
 Data cleaning & preparation and exploratory data analysis were performed in Python to facilitate model selection and model analysis. A random forest model was constructed and provided accurate predictions and highlighted relationships between predictors and obesity levels.
+
+Limitations included <___>
 
 ## License
 <You can add under what license your project is. As a good practice, add LICENSE file in your project folder as well. >
