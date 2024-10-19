@@ -52,7 +52,9 @@ The source dataset, “Estimation of Obesity Levels Based On Eating Habits and P
 
 Data cleaning & preparation and exploratory data analysis were performed in Python to facilitate model selection and model analysis. A random forest model was constructed and provided accurate predictions and highlighted relationships between predictors and obesity levels.
 
-Limitations included <___>
+The Random Forest model performed extremely well in predicting obesity levels, achieving overall accuracy of 98.28%. The model’s reliability is evident in the Confusion Matrix, which indicated high classification accuracy across different obesity groups. Additionally, the ROC curve analysis highlighted the model’s ability to distinguish between classes. 
+
+Despite the Random Forest model’s strong performance, two key limitations were identified. First, the model struggled to distinguish between Overweight Level I and Overweight Level II classes, which led to minor misclassification. Second, the model relies on available features, which may overlook other important factors that influence obesity, such as genetics, and socioeconomic status. Addressing these limitations could improve the model’s accuracy in future studies.
 
 ## License
 <You can add under what license your project is. As a good practice, add LICENSE file in your project folder as well. >
