@@ -1,4 +1,4 @@
-### Distribution Of Obesity Levels: A Statistical Overview
+# Distribution Of Obesity Levels: A Statistical Overview
 
 This project is a part of the AAI 500 course in the Applied Artificial Intelligence Program at the University of San Diego (USD). 
 
