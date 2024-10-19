@@ -9,6 +9,7 @@ Installation:
   
 ## Project Intro/Objective
 The main purpose of this project is to contribute to a deeper understanding of the complex factors that contribute to obesity in Latin America. The analysis focuses on using statistical methods, particularly random forest regression, to identify key determinants of obesity, such as body mass index (BMI), body weight, and diet. We hypothesize that specific combinations of lifestyle factors, such as high consumption of processed foods, limited physical activity, and family history of obesity, are significantly correlated with obesity rates. By identifying these patterns, targeted public health interventions can be developed to address individuals at higher risk and promote healthier behaviors.
+
 Through statistical analysis and machine learning techniques, we hypothesize that specific combinations of these variables are significantly correlated with obesity rates. For instance, we anticipate that individuals who consume a high proportion of processed foods, engage in limited physical activity, and have a family history of obesity are more likely to be overweight or obese. By identifying these patterns, targeted public health interventions can be developed to address the specific needs of individuals at risk and promote healthier lifestyles. Ultimately, this research aims to contribute to a deeper understanding of the complex factors that contribute to obesity in Latin America. The findings will inform public health strategies and interventions to 
 
 ## Partner(s)/Contributor(s)  
