@@ -4,8 +4,8 @@ This project is a part of the AAI 500 course in the Applied Artificial Intellige
 
 -- Project Status: [Completed]
 
-Installation:
-<You should add an instruction how this project to be used, installed, run, edited in others’ machine.>
+## Installation
+Download the code in the project Github repository, and ensure Python is installed on the device. Run the code present in the .ipynb files.
   
 ## Project Intro/Objective
 The main purpose of this project is to contribute to a deeper understanding of the complex factors that contribute to obesity in Latin America. The analysis focuses on using statistical methods, particularly random forest regression, to identify key determinants of obesity, such as body mass index (BMI), body weight, and diet. We hypothesize that specific combinations of lifestyle factors, such as high consumption of processed foods, limited physical activity, and family history of obesity, are significantly correlated with obesity rates. By identifying these patterns, targeted public health interventions can be developed to address individuals at higher risk and promote healthier behaviors.
@@ -55,9 +55,6 @@ Data cleaning & preparation and exploratory data analysis were performed in Pyth
 The Random Forest model performed extremely well in predicting obesity levels, achieving overall accuracy of 98.28%. The model’s reliability is evident in the Confusion Matrix, which indicated high classification accuracy across different obesity groups. Additionally, the ROC curve analysis highlighted the model’s ability to distinguish between classes. 
 
 Despite the Random Forest model’s strong performance, two key limitations were identified. First, the model struggled to distinguish between Overweight Level I and Overweight Level II classes, which led to minor misclassification. Second, the model relies on available features, which may overlook other important factors that influence obesity, such as genetics, and socioeconomic status. Addressing these limitations could improve the model’s accuracy in future studies.
-
-## License
-<You can add under what license your project is. As a good practice, add LICENSE file in your project folder as well. >
 
 ## Acknowledgments
 Thanks to professors Dallin Munger and Leon Shpaner of our AAI 500 class.
