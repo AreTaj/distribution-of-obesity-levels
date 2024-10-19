@@ -1,9 +1,11 @@
 ### Distribution Of Obesity Levels: A Statistical Overview
 
 This project is a part of the AAI 500 course in the Applied Artificial Intelligence Program at the University of San Diego (USD). 
+
 -- Project Status: [Completed]
-Installation
-You should add an instruction how this project to be used, installed, run, edited in others’ machine.
+
+Installation:
+<You should add an instruction how this project to be used, installed, run, edited in others’ machine.>
   
 ## Project Intro/Objective
 The main purpose of this project is to contribute to a deeper understanding of the complex factors that contribute to obesity in Latin America. The analysis focuses on using statistical methods, particularly random forest regression, to identify key determinants of obesity, such as body mass index (BMI), body weight, and diet. We hypothesize that specific combinations of lifestyle factors, such as high consumption of processed foods, limited physical activity, and family history of obesity, are significantly correlated with obesity rates. By identifying these patterns, targeted public health interventions can be developed to address individuals at higher risk and promote healthier behaviors.
@@ -11,8 +13,8 @@ Through statistical analysis and machine learning techniques, we hypothesize tha
 
 ## Partner(s)/Contributor(s)  
 •	Payal Patel, Ahmed Salem, Aresh Tajvar
-•	Website for partner, if available. 
-•	Partner contact: [Name of Contact], and If you do not have a partner leave this section out
+<•	Website for partner, if available. 
+•	Partner contact: [Name of Contact], and If you do not have a partner leave this section out>
 
 ## Methods Used
 •	Inferential Statistics
