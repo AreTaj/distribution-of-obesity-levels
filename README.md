@@ -56,5 +56,8 @@ The Random Forest model performed extremely well in predicting obesity levels, a
 
 Despite the Random Forest model’s strong performance, two key limitations were identified. First, the model struggled to distinguish between Overweight Level I and Overweight Level II classes, which led to minor misclassification. Second, the model relies on available features, which may overlook other important factors that influence obesity, such as genetics, and socioeconomic status. Addressing these limitations could improve the model’s accuracy in future studies.
 
+## License
+
+
 ## Acknowledgments
 Thanks to professors Dallin Munger and Leon Shpaner of our AAI 500 class.
